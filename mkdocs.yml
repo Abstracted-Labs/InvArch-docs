@@ -1,0 +1,6 @@
+site_name: InvArch Docs
+site_url: https://docs.invarch.com/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
