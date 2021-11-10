@@ -33,10 +33,10 @@ jobs:
           # install dependencies quietly
           pip3 install -r requirements.txt &> /dev/null && echo "Dependencies installed" || echo "Error while installing dependencies"
 
-      - name: Build mkdocs
-        run: |
-          cd InvArch-mkdocs
-          # change destination build folder in mkdocs YAML to local site/
-          sed -i "s/'site_dir'.*/'site_dir': 'site'/" mkdocs.yml
-          # build project
-          python3 -m mkdocs build
+      # - name: Build mkdocs
+      #   run: |
+      #     cd InvArch-mkdocs
+      #     # change destination build folder in mkdocs YAML to local site/
+      #     sed -i "s/'site_dir'.*/'site_dir': 'site'/" mkdocs.yml
+      #     # build project
+      #     python3 -m mkdocs build
