@@ -1,6 +1,6 @@
 # InvArch Documentation and Resources
 
-![Main Page Banner](/docs/img/cover.png)
+![Main Page Cover](img/cover.png)
 
 ## Welcome to InvArch
 Hello, and welcome to the beginning of your exciting journey here at InvArch! This is the start of an amazing new chapter in your life where you will contribute to one of the most ambitious blockchain projects in the world.
