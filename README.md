@@ -28,8 +28,8 @@ InvArch will also be a parachain on the Polkadot network. That means it will get
 Currently, there are a few ways you can start building on InvArch: 
 
  - Build your own InvArch instance as a [development node](/builders/get-started/InvArch-dev/)
- - [Connect](/builders/get-started/moonbase/) to the [Moonbase Alpha TestNet](/learn/platform/networks/moonbase/)
- - [Connect](/builders/get-started/moonriver/) to [Moonriver](/learn/platform/networks/moonriver/)
+ - [Connect](/builders/get-started/tinker/) to the [Tinker TestNet](/learn/platform/networks/tinker/)
+ - [Connect](/builders/get-started/invarch/) to [InvArch Testnet](/learn/platform/networks/invarch/)
 
 
 ### Deploy a Contract {: #deploy-a-contract } 
