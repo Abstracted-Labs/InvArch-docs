@@ -20,11 +20,6 @@ jobs:
           # move also dotfile with *
           shopt -s dotglob
 
-      - name: Clone InvArch MKDocs
-        run: |
-          # clone mkdocs repo locally
-          git clone https://${{ secrets.REPO_SCOPED_TOKEN }}@github.com/InvArch/InvArch-mkdocs.git
-
       - name: Move InvArch-docs contents to mkdocs repository
         run: |
           mkdir InvArch-mkdocs/InvArch-docs
