@@ -1,7 +1,28 @@
 site_name: InvArch Docs
 site_url: https://docs.invarch.com/
+repo_url: https://github.com/InvArch/InvArch-docs/
+site_description: "InvArch Documentation and Resources"
+site_author: "InvArch Team"
+theme:
+    name: material
+    palette:
+        primary: purple
+    features:
+        - navigation.tabs
+        - navigation.sections
+        - navigation.top
+plugins:
+    - search
+
 nav:
-    - Home: index.md
-    - Learn: learn.md
-    - Node Operators: node-operators.md
-    - Builders: builders.md
+    - Learn:
+        - 'Platform':
+            - 'Welcome': 'index.md'
+            - 'Vision': 'vision.md'
+            - 'Why Polkadot': 'why-polkadot.md'
+        - 'Features': 
+            - 'Protocol': 'protocol.md'
+    - 'Node Operators': 
+        - 'Getting Started': 'node-operators.md'
+    - Builders: 
+        - 'Start Build': 'builders.md'
