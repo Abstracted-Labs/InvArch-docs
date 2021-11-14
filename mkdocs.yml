@@ -20,6 +20,13 @@ nav:
             - 'Welcome': 'index.md'
             - 'Vision': 'vision.md'
             - 'Why Polkadot': 'why-polkadot.md'
+            - 'Roadmap': 'roadmap.md'
+            - 'Networks': 'networks.md'
+            - 'Technology': 'technology.md'
+            - 'Tokens': 'tokens.md'
+            - 'Source Code': 'source-code.md'
+            - 'Important Links': 'important-links.md'
+            - 'Glossary': 'glossary.md'
         - 'Features': 
             - 'Protocol': 'protocol.md'
     - 'Node Operators': 
