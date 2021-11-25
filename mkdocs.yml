@@ -28,7 +28,7 @@ nav:
             - 'Important Links': 'important-links.md'
             - 'Glossary': 'glossary.md'
         - 'Features': 
-            - 'Protocol': 'protocol.md'
+            - 'ETH Compatibility': 'eth-compatibility.md'
     - 'Node Operators': 
         - 'Getting Started': 'node-operators.md'
     - Builders: 
