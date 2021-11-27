@@ -29,6 +29,8 @@ nav:
             - 'Glossary': 'glossary.md'
         - 'Features': 
             - 'ETH Compatibility': 'eth-compatibility.md'
+            - 'Staking': 'staking.md'
+            - 'IP Staking': 'ip-staking.md'
     - 'Node Operators': 
         - 'Getting Started': 'node-operators.md'
     - Builders: 
