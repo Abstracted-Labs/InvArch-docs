@@ -5,6 +5,8 @@ site_description: "InvArch Documentation and Resources"
 site_author: "InvArch Team"
 theme:
     name: material
+    logo: assets/favicon.ico
+    favicon: assets/favicon.ico
     palette:
         primary: purple
     features:
@@ -30,7 +32,7 @@ nav:
         - 'Features': 
             - 'ETH Compatibility': 'eth-compatibility.md'
             - 'Staking': 'staking.md'
-            - 'IP Staking': 'ip-staking.md'
+            - 'Smart IP Staking': 'smart-ip-staking.md'
     - 'Node Operators': 
         - 'Getting Started': 'node-operators.md'
     - Builders: 
