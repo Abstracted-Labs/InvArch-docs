@@ -33,6 +33,7 @@ nav:
             - 'ETH Compatibility': 'eth-compatibility.md'
             - 'Staking': 'staking.md'
             - 'Smart IP Staking': 'smart-ip-staking.md'
+            - 'Governance': 'governance.md'
     - 'Node Operators': 
         - 'Getting Started': 'node-operators.md'
     - Builders: 

@@ -20,7 +20,7 @@ Some important parameters to understand in relation to the staking system in Inv
 
 ## Quick Reference
 
-|  | InvArch | Tinker | 
+| Variable | InvArch | Tinker |
 | --- | --- | --- |
 | **Minimum nomination amount** | 5 VARCH | 5 TNKR |
 | **Round duration** | 300 blocks, time per round is approximately 1 hour | 300 blocks, time per round is approximately 1 hour |
