@@ -35,6 +35,7 @@ nav:
             - 'Smart IP Staking': 'smart-ip-staking.md'
             - 'Governance': 'governance.md'
             - 'Treasury': 'treasury.md'
+            - 'Parachain Consensus': 'parachain-consensus.md'
     - 'Node Operators': 
         - 'Getting Started': 'node-operators.md'
     - Builders: 
