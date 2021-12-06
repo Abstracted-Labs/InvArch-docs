@@ -37,6 +37,13 @@ nav:
             - 'Treasury': 'treasury.md'
             - 'Parachain Consensus': 'parachain-consensus.md'
     - 'Node Operators': 
-        - 'Getting Started': 'node-operators.md'
+        - 'Networks':
+            - 'Run a Node': 
+                - 'Overview': 'run-a-node.md' 
+        - 'Oracle Node':
+            - 'Chainlink Node': 'chainlink-node.md'
+        - 'Indexer Node': 
+            - 'Graph Node': 'graph-node.md'
+
     - Builders: 
         - 'Start Build': 'builders.md'
