@@ -13,7 +13,7 @@ This site will grow and be refined over time as InvArch is developed.  We welcom
 
 ---
 
-## What is InvArch? {: #what-is-invarch } 
+## What is InvArch?
 
 InvArch is an IP management and development protocol with smart contract functionality. It is a future Polkadot parachain that will allow users to tokenize their ideas and developers to build new and exciting applications that utilize this database.
 
@@ -21,9 +21,9 @@ InvArch will also be a parachain on the Polkadot network. That means it will get
 
 ---
 
-## How to Get Started with InvArch {: #how-to-get-started-with-invarch } 
+## How to Get Started with InvArch
 
-### Networks {: #networks } 
+### Networks
 
 Currently, there are a few ways you can start building on InvArch: 
 
@@ -32,7 +32,7 @@ Currently, there are a few ways you can start building on InvArch:
  - [Connect](/builders/get-started/invarch/) to [InvArch Testnet](/learn/platform/networks/invarch/)
 
 
-### Deploy a Contract {: #deploy-a-contract } 
+### Deploy a Contract
 
 Because of InvArch's Ethereum compatibility features, you can use the development tools you know and love to deploy a contract:
 
@@ -44,7 +44,7 @@ Because of InvArch's Ethereum compatibility features, you can use the developmen
  - [Waffle and Mars](/builders/interact/waffle-mars/)
 
 
-### Tools and Integrations {: #tools-and-integrations } 
+### Tools and Integrations
 
  - [Web3.js](/builders/tools/eth-libraries/web3js/)
  - [Ethers.js](/builders/tools/eth-libraries/etherjs/)
@@ -53,13 +53,13 @@ Because of InvArch's Ethereum compatibility features, you can use the developmen
  - [Covalent API](/builders/integrations/indexers/covalent/)
  - [Debug & Trace](/builders/tools/debug-trace/)
 
-### Oracles {: #oracles } 
+### Oracles
 
  We also have a number of Oracles that can serve as data feed to your smart contracts:
 
  - [Chainlink](/builders/integrations/oracles/chainlink/)
 
-### Bridges {: #bridges } 
+### Bridges
 
 Currently, we have a fully functioning bridge implementation that connects Ethereum's Rinkeby/Kovan TestNets and Tinker Alpha:
 
@@ -67,27 +67,27 @@ Currently, we have a fully functioning bridge implementation that connects Ether
 
 ---
 
-## How to Engage With the InvArch Community {: #how-to-engage-with-the-invarch-community } 
+## How to Engage With the InvArch Community
 
-### :fontawesome-brands-discord:  Discord {: #fontawesome-brands-discord-discord } 
+### :fontawesome-brands-discord:  Discord
 Instructions for our TestNet and other development-focused conversation is found on our [Discord channel](https://discord.com/invite/UDuyBC2EC7).
 
-<!-- ### :InvArch-element:  Element {: #InvArch-element-element } 
+<!-- ### :InvArch-element:  Element
 Technical discussions and support are encouraged in our Element (formerly Riot) room that can be found [here](https://app.element.io/#/room/#InvArch:matrix.org). -->
 
-### :fontawesome-brands-telegram-plane:  Telegram {: #fontawesome-brands-telegram-plane-telegram } 
+### :fontawesome-brands-telegram-plane:  Telegram
 General information and other non-technical topics can be discussed in our Telegram group [here](https://t.me/InvArch).
 
-### :fontawesome-brands-twitter:  Twitter {: #fontawesome-brands-twitter-twitter } 
+### :fontawesome-brands-twitter:  Twitter
 Follow us on Twitter for regular updates: [@InvArchNetwork](https://twitter.com/InvArchNetwork).
 
-### :fontawesome-brands-youtube:  YouTube {: #fontawesome-brands-youtube-youtube } 
+### :fontawesome-brands-youtube:  YouTube
 For video-tutorials and related content, subscribe to our YouTube channel [here](https://www.youtube.com/channel/UCSUD4kuRxXfOuRkVL0hpxXg).
 
-### :fontawesome-solid-envelope:  Newsletter {: #fontawesome-solid-envelope-newsletter } 
+### :fontawesome-solid-envelope:  Newsletter
 We send a monthly newsletter with project updates that you can sign up for [here](https://InvArch.network/newsletter/).
 
-## About This Site {: #about-this-site } 
+## About This Site
 This site is generated using [mkdocs](https://www.mkdocs.org/) and [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) theme and is based on content in the InvArch-docs repo, which can be found [on :fontawesome-brands-github: GitHub](https://github.com/InvArch/InvArch-docs).
 
 ### Getting Started with MkDocs

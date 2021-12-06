@@ -122,7 +122,7 @@ chain (our genesis: GENESIS_ID theirs: OTHER_GENESIS_ID)
 
 This typically means that you are running an older version and will need to upgrade.
 
-We announce the upgrades (and corresponding chain purge) via our [Discord channel]() at least 24 hours in advance. 
+We announce the upgrades (and corresponding chain purge) via our [Discord channel](https://discord.com/invite/UDuyBC2EC7) at least 24 hours in advance. 
 
 Instructions for purging chain data will vary slightly depending on how you spun up your node:
 
