@@ -1,15 +1,15 @@
 ---
 title: Home
-description: Welcome to the documentation website for the InvArch IP Management & Decentralized Development platform, a parachain on Polkadot that is fully Ethereum compatible.
+description: Welcome to the documentation website for the InvArch IP Management & Development Protocol for Web3.
 ---
 
 # Welcome to InvArch
 
 ![Main Page Banner](/docs/assets/cover.png)
 
-This site provides documentation for InvArch, an IP management and decentralized development parachain on the Polkadot network that is fully Ethereum compatible. Here, you'll find both high-level and technical information for developers, collators, end-users, and other InvArch network participants.
+This site provides documentation for InvArch, an IP management and development protocol parachain on the Polkadot network that is fully Ethereum compatible. Here, you'll find both high-level and technical information for developers, collators, end-users, and other InvArch network participants.
 
-This site will grow and be refined over time as InvArch is developed.  We welcome you to join the InvArch community and contribute to this site and to the project.
+This site will grow and be refined over time as InvArch is developed. We welcome you to join the InvArch community and contribute to this site and to the project.
 
 ---
 
@@ -21,11 +21,11 @@ InvArch will also be a parachain on the Polkadot network. That means it will get
 
 ---
 
-## How to Get Started with InvArch
+<!-- ## How to Get Started with InvArch
 
 ### Networks
 
-Currently, there are a few ways you can start building on InvArch: 
+Currently, there are a few ways you can start building on InvArch:
 
  - Build your own InvArch instance as a [development node](/builders/get-started/InvArch-dev/)
  - [Connect](/builders/get-started/tinker/) to the [Tinker TestNet](/learn/platform/networks/tinker/)
@@ -65,60 +65,25 @@ Currently, we have a fully functioning bridge implementation that connects Ether
 
  - [ChainBridge](/builders/integrations/bridges/eth/chainbridge/)
 
----
+--- -->
 
 ## How to Engage With the InvArch Community
 
-### :fontawesome-brands-discord:  Discord
+### Discord
+
 Instructions for our TestNet and other development-focused conversation is found on our [Discord channel](https://discord.com/invite/UDuyBC2EC7).
 
 <!-- ### :InvArch-element:  Element
 Technical discussions and support are encouraged in our Element (formerly Riot) room that can be found [here](https://app.element.io/#/room/#InvArch:matrix.org). -->
 
-### :fontawesome-brands-telegram-plane:  Telegram
+### Telegram
+
 General information and other non-technical topics can be discussed in our Telegram group [here](https://t.me/InvArch).
 
-### :fontawesome-brands-twitter:  Twitter
+### Twitter
+
 Follow us on Twitter for regular updates: [@InvArchNetwork](https://twitter.com/InvArchNetwork).
 
-### :fontawesome-brands-youtube:  YouTube
+### YouTube
+
 For video-tutorials and related content, subscribe to our YouTube channel [here](https://www.youtube.com/channel/UCSUD4kuRxXfOuRkVL0hpxXg).
-
-### :fontawesome-solid-envelope:  Newsletter
-We send a monthly newsletter with project updates that you can sign up for [here](https://InvArch.network/newsletter/).
-
-## About This Site
-This site is generated using [mkdocs](https://www.mkdocs.org/) and [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) theme and is based on content in the InvArch-docs repo, which can be found [on :fontawesome-brands-github: GitHub](https://github.com/InvArch/InvArch-docs).
-
-### Getting Started with MkDocs
-
-- Install MkDocs
-To install MkDocs, run the following command from the command line:
-
-```bash
-pip install mkdocs
-```
-
-For more details, see the [MkDocs Installation Guide](https://github.com/mkdocs/mkdocs/blob/master/docs/user-guide/installation.md).
-
-- Clone this repo
-```
-git clone https://github.com/InvArch/InvArch-docs
-cd InvArch-docs
-```
-
-- Open in your browser
-then start the server by running the `mkdocs serve`
-command:
-
-```bash
-$ mkdocs serve
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-[I 160402 15:50:43 server:271] Serving on http://127.0.0.1:8000
-[I 160402 15:50:43 handlers:58] Start watching changes
-[I 160402 15:50:43 handlers:60] Start detecting changes
-```
-
-Open up `http://127.0.0.1:8000/` in your browser, and you'll see the
-home page being displayed.
