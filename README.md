@@ -5,7 +5,7 @@ description: Welcome to the documentation website for the InvArch IP Management 
 
 # Welcome to InvArch
 
-![Main Page Banner](/docs/assets/cover.png)
+![Main Page Banner](/assets/cover.png)
 
 This site provides documentation for InvArch, an IP management and development protocol parachain on the Polkadot network that is fully Ethereum compatible. Here, you'll find both high-level and technical information for developers, collators, end-users, and other InvArch network participants.
 
