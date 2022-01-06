@@ -21,5 +21,6 @@
     * [Parachain Consensus](01-learn/02-features/06-parachain-consensus.md)
 * [Node Operators](02-node-operators/README.md)
   * [Run a Node](<02-Node Operators/run-a-node.md>)
+  * [Tinker TestNet](02-node-operators/tinker-testnet.md)
 * [Builders](03-builders/README.md)
   * [Builders Program](03-Builders/builders.md)
