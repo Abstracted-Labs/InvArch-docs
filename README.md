@@ -45,6 +45,10 @@ Read our news and updates on SubSocial Network [here](https://app.subsocial.netw
 
 Our archived news on Medium [here](https://invarch.medium.com).
 
+### Reddit
+
+Join our discussion on subreddit of InvArch [here](https://www.reddit.com/r/InvArchNetwork/).
+
 ### YouTube
 
 For video-tutorials and related content, subscribe to our YouTube channel [here](https://www.youtube.com/channel/UCSUD4kuRxXfOuRkVL0hpxXg).
