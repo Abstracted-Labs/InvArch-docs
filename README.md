@@ -41,7 +41,7 @@ Follow us on Twitter for regular updates: [@InvArchNetwork](https://twitter.com/
 
 Read our news and updates on SubSocial Network [here](https://app.subsocial.network/5857).
 
-### Medium (Archived)
+### Medium
 
 Our archived news on Medium [here](https://invarch.medium.com).
 
