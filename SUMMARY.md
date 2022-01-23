@@ -8,6 +8,7 @@
     * [Why Polkadot](01-learn/01-platform/03-why-polkadot.md)
     * [Roadmap](01-learn/01-platform/04-roadmap.md)
     * [Technology](01-learn/01-platform/05-technology.md)
+    * [Architecture](01-learn/01-platform/architecture.md)
     * [Tokens](01-learn/01-platform/06-tokens.md)
     * [Source Code](01-learn/01-platform/07-source-code.md)
     * [Links](01-learn/01-platform/08-important-links.md)
