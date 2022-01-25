@@ -9,7 +9,7 @@ description: >-
 
 ![Main Page Banner](assets/cover.png)
 
-Welcome to the documentation website for the InvArch, an IP Ownership, Utility & Cross-Chain Authentication Protocol for Web3. Here, you'll find both high-level and technical information for developers, collators, end-users, and other InvArch network participants.
+Welcome to the documentation for the InvArch. Here, you'll find both high-level and technical information for developers, collators, end-users, and other InvArch network participants.
 
 This site will grow and be refined over time as InvArch is developed. We welcome you to join the InvArch community and contribute to this site and to the project.
 
@@ -21,7 +21,19 @@ InvArch is an IP ownership, utility and cross-chain authentication protocol with
 
 InvArch will also be a parachain on the Polkadot network. That means it will get shared security from the Polkadot relay chain and will be able to integrate with other chains that are connected to Polkadot.
 
-***
+## Get Involved
+
+### Learn
+
+Get started by learn how InvArch works [here](./#learn).
+
+### Maintain
+
+If you want to contribute to maintain the network or becoming a node operators, you may find the documentations [here](02-node-operators/).
+
+### Build
+
+Most up-to-date information on the status of the development tools / kits (SDK) can be found [here](./#build).
 
 ## How to Engage With the InvArch Community
 
