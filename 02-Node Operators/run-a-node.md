@@ -7,10 +7,9 @@ Running a full node on a InvArch-based network allows you to connect to the netw
 There are multiple deployments of InvArch, including the Tinker Alpha TestNet, Tinker on Kusama, and eventually there will be InvArch on Polkadot. Here's how these environments are named and their corresponding [chain specification](https://docs.substrate.io/v3/runtime/chain-specs/) file names:
 
 | Network | Hosted by | Chain Name |
-| --- | --- | --- |
-| Tinker Alpha | InvArch | tinkernet |
-| Tinker | Kusama | tinker |
-| InvArch | Polkadot | invarch |
+| ------- | --------- | ---------- |
+| Tinker  | InvArch   | tinker     |
+| InvArch | Polkadot  | invarch    |
 
 ## Requirement
 
@@ -18,51 +17,12 @@ Running a parachain node is similar to a typical Substrate node, but there are s
 
 The minimum specs recommended to run a node are shown in the following table. For our Kusama and Polkadot MainNet deployments, disk requirements will be higher as the network grows.
 
-
-<table>  
-    <thead>
-        <tr><th></th><th>Component</th> <th>Requirement</th>
-        </tr>
-    </thead>  
-    <tbody>
-        <tr>  
-            <td rowspan="4">Tinker Alpha</td><td>CPU</td><td>8 Cores (Fastest per core speed)</td>  
-        </tr>
-        <tr>
-            <td>RAM</td><td>16 Gb</td>
-        </tr>
-        <tr>
-            <td>SSD</td><td>250 GB (to start)</td>
-        </tr>
-        <tr>
-            <td>Firewall</td>
-            <td>P2P port must be open to incoming traffic:
-                <ul>
-                    <li>Source: Any</li>
-                    <li>Destination: 30333, 30334 TCP</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>  
-            <td rowspan="4">Tinker</td><td>CPU</td><td>8 Cores (Fastest per core speed)</td>  
-        </tr>
-        <tr>
-            <td>RAM</td><td>16 Gb</td>
-        </tr>
-        <tr>
-            <td>SSD</td><td>500 GB (to start)</td>
-        </tr>
-        <tr>
-            <td>Firewall</td>
-            <td>P2P port must be open to incoming traffic:
-                <ul>
-                    <li>Source: Any</li>
-                    <li>Destination: 30333, 30334 TCP</li>
-                </ul>
-            </td>
-        </tr> 
-    </tbody>  
-</table>
+|               | Component                                                                                                            | Requirement                      |
+| ------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Tinker (TINK) | CPU                                                                                                                  | 8 Cores (Fastest per core speed) |
+| RAM           | 16 Gb                                                                                                                |                                  |
+| SSD           | 250 GB (to start)                                                                                                    |                                  |
+| Firewall      | <p>P2P port must be open to incoming traffic:</p><ul><li>Source: Any</li><li>Destination: 30333, 30334 TCP</li></ul> |                                  |
 
 ## Running Ports
 
@@ -72,32 +32,32 @@ The only ports that need to be open for incoming traffic are those designated fo
 
 ### Default Ports for a Parachain Full-Node
 
-|  Description   |  |                Port                 |
-|:--------------:|::|:-----------------------------------:|
-|    **P2P**     |  | 30333 (TCP) |
-|    **RPC**     |  |    9933   |
-|     **WS**     |  |     9944   |
-| **Prometheus** |  | 9615 |
+| Description    | Port        |   |   |
+| -------------- | ----------- | - | - |
+| **P2P**        | 30333 (TCP) |   |   |
+| **RPC**        | 9933        |   |   |
+| **WS**         | 9944        |   |   |
+| **Prometheus** | 9615        |   |   |
 
 ### Default Ports of Embedded Relay Chain
 
-|  Description   |  |                 Port                  |
-|:--------------:|::|:-------------------------------------:|
-|    **P2P**     |  | 30334 (TCP) |
-|    **RPC**     |  |    9934    |
-|     **WS**     |  |     9945  |
-| **Prometheus** |  | 9616 |
+| Description    | Port        |
+| -------------- | ----------- |
+| **P2P**        | 30334 (TCP) |
+| **RPC**        | 9934        |
+| **WS**         | 9945        |
+| **Prometheus** | 9916        |
 
 ## Installation
 
 There are a couple different guides to help you get started running a InvArch-based node:
 
-- [Using Docker]() - this method provides a quick and easy way to get started with a Docker container
-- [Using Systemd]() - this method is recommended for those with experience compiling a Substrate node 
+* [Using Docker](run-a-node.md) - this method provides a quick and easy way to get started with a Docker container
+* [Using Systemd](run-a-node.md) - this method is recommended for those with experience compiling a Substrate node
 
 ## Debug, Trace and TxPool APIs
 
-You can also gain access to some non-standard RPC methods by running a tracing node, which allow developers to inspect and debug transactions during runtime. Tracing nodes use a different Docker image than a standard Tinker Alpha or Tinker node. Check out the [Run a Tracing Node]() guide and be sure to switch to the right network tab throughout the instructions. Then to interact with your tracing node, check out the [Debug & Trace]() guide.
+You can also gain access to some non-standard RPC methods by running a tracing node, which allow developers to inspect and debug transactions during runtime. Tracing nodes use a different Docker image than a standard Tinker Alpha or Tinker node. Check out the [Run a Tracing Node](run-a-node.md) guide and be sure to switch to the right network tab throughout the instructions. Then to interact with your tracing node, check out the [Debug & Trace](run-a-node.md) guide.
 
 ## Logs and Troubleshooting
 
@@ -122,9 +82,9 @@ chain (our genesis: GENESIS_ID theirs: OTHER_GENESIS_ID)
 
 This typically means that you are running an older version and will need to upgrade.
 
-We announce the upgrades (and corresponding chain purge) via our [Discord channel](https://discord.com/invite/UDuyBC2EC7) at least 24 hours in advance. 
+We announce the upgrades (and corresponding chain purge) via our [Discord channel](https://discord.com/invite/UDuyBC2EC7) at least 24 hours in advance.
 
 Instructions for purging chain data will vary slightly depending on how you spun up your node:
 
-  - For Docker, you can check out the [Purge Your Node]() section of the [Using Docker]() page
-  - For Systemd, you can take a look at the [Purge Your Node]() section of the [Using Systemd]() page
+* For Docker, you can check out the [Purge Your Node](run-a-node.md) section of the [Using Docker](run-a-node.md) page
+* For Systemd, you can take a look at the [Purge Your Node](run-a-node.md) section of the [Using Systemd](run-a-node.md) page

@@ -61,7 +61,7 @@ Telemetry You can see current Tinker telemetry information visiting this link: `
 
 #### Tokens&#x20;
 
-Tokens on Tinker Testnet, named TNKR, will be issued on demand. **TNKR tokens hold no value and can be freely acquired**. Currently, there are three ways you can get access to this token: through a Discord bot, Twitter faucet, or manually.&#x20;
+Tokens on Tinker Testnet, named TNKR, will be issued on demand. **TINK tokens hold no value and can be freely acquired**. Currently, there are three ways you can get access to this token: through a Discord bot, Twitter faucet, or manually.&#x20;
 
 #### Discord - Faucet Drip&#x20;
 
