@@ -11,18 +11,28 @@ There are multiple deployments of InvArch, including the Tinker Alpha TestNet, T
 | Tinker  | InvArch   | tinker     |
 | InvArch | Polkadot  | invarch    |
 
+{% hint style="info" %}
+Tinker is a Testnet, and as such _will not_ have 100% uptime. The parachain might be purged as needed. During the development of your application, make sure you implement a method to redeploy your contracts and accounts to a fresh parachain quickly. If a chain purge is required, it will be announced via our [Discord ](https://discord.com/invite/invarch)channel at least **24 hours** in advance.
+{% endhint %}
+
 ## Requirement
 
 Running a parachain node is similar to a typical Substrate node, but there are some differences. A Substrate parachain node is a bigger build because it contains code to run the parachain itself, as well as code to sync the relay chain, and facilitate communication between the two. As such, this build is quite large and may take over 30 min and require 32GB of memory.
 
 The minimum specs recommended to run a node are shown in the following table. For our Kusama and Polkadot MainNet deployments, disk requirements will be higher as the network grows.
 
-|               | Component                                                                                                            | Requirement                      |
+
+
+| Chain         | Component                                                                                                            | Requirement                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | Tinker (TINK) | CPU                                                                                                                  | 8 Cores (Fastest per core speed) |
 | RAM           | 16 Gb                                                                                                                |                                  |
 | SSD           | 250 GB (to start)                                                                                                    |                                  |
 | Firewall      | <p>P2P port must be open to incoming traffic:</p><ul><li>Source: Any</li><li>Destination: 30333, 30334 TCP</li></ul> |                                  |
+
+{% hint style="info" %}
+If you don't see an `Imported` message (without the `[Relaychain]` tag) when running a node, you might need to double-check your port configuration.
+{% endhint %}
 
 ## Running Ports
 
@@ -73,7 +83,7 @@ Both chains must be in sync at all times, and you should see either `Imported` o
 
 ### Genesis Mismatching
 
-The Tinker Alpha TestNet may need to be purged and upgraded once in a while. Consequently, you may see the following message:
+The Tinker TestNet may need to be purged and upgraded once in a while. Consequently, you may see the following message:
 
 ```
 DATE [Relaychain] Bootnode with peer id `ID` is on a different
@@ -82,7 +92,7 @@ chain (our genesis: GENESIS_ID theirs: OTHER_GENESIS_ID)
 
 This typically means that you are running an older version and will need to upgrade.
 
-We announce the upgrades (and corresponding chain purge) via our [Discord channel](https://discord.com/invite/UDuyBC2EC7) at least 24 hours in advance.
+We announce the upgrades (and corresponding chain purge) via our [Discord ](https://discord.com/invite/invarch)channel at least **24 hours** in advance.
 
 Instructions for purging chain data will vary slightly depending on how you spun up your node:
 
