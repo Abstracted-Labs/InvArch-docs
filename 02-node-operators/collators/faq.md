@@ -10,7 +10,7 @@ Running a Moobeam collator requires Linux systems administration skills, careful
 
 **Q: Where can I get help?**
 
-**A:** There is an active and friendly [Discord](https://discord.com/invite/invarch) community for collators. Join the server and introduce yourself even before you need help. Send **PureStake-Gil#0433** or **PureStake-Art#6950** a DM and let them know who you are, and they can reach out to you if they see any issues with your node.
+**A:** There is an active and friendly [Discord](https://discord.com/invite/invarch) community for collators. Join the server and introduce yourself even before you need help. Send **Gabriel** or **Kresna** a DM and let them know who you are, and they can reach out to you if they see any issues with your node.
 
 ***
 
