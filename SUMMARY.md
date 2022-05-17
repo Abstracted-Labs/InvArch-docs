@@ -30,4 +30,4 @@
     * [Account Management](02-node-operators/collators/account-management.md)
     * [Collator Activities](02-node-operators/collators/collator-activities.md)
 * [Builders](03-builders/README.md)
-  * [Builders Program](03-Builders/builders.md)
+  * [InvArchitects Assemble Program](03-Builders/builders.md)
