@@ -1,6 +1,22 @@
-# OCIF Protocol
+# Staking in InvArch
 
+## Introduction
 
+InvArch uses a block production mechanism based on Polkadot's [Proof-of-Stake](https://wiki.polkadot.network/docs/learn-consensus) model, where there are _**collators**_ and _**validators**_. [Collators](https://wiki.polkadot.network/docs/learn-collator) maintain parachains (in this case, InvArch) by collecting transactions from users and producing state transition proofs for the relay chain [validators](https://wiki.polkadot.network/docs/learn-validator).
+
+The collators' set (nodes that produce blocks) are selected based on their stake in the network. And here is where staking comes in.
+
+Collators (and token holders if they nominate) have a stake in the network. The top N collators by staked amount are chosen to produce blocks with a valid set of transactions, where N is a configurable parameter. Part of each block reward goes to the collator that produced the block, who then shares it with the nominators considering their percental contributions towards the collator's staked. In such a way, network members are incentivized to stake tokens to improve the overall security.
+
+General Definitions Some important parameters to understand in relation to the staking system in InvArch include:
+
+* **Collators** — block producers. They collect transactions from users and produce state transition proofs for the relay chain to validate. Have a stake in the network that get slashed if they misbehave
+* **Nominators** — token holders who stake tokens, vouching for specific collators. Any user that holds a minimum amount of tokens as free balance can become a nominator
+* **Minimum nomination stake** — minimum amount of total tokens staked a user must have to be in the set of nominators
+* **Minimum nomination** — minimum amount of tokens to nominate other collators once a user is in the set of nominators
+* **Maximum nominators per collator** — maximum number of nominators a collator can have
+* **Maximum collators per nominator** — maximum number of collators a nominator can nominate
+* **Round** — a specific number of blocks around which staking actions are enforced. For example, new nominations are enacted when the next round starts. When revoking nominations, funds are returned after a certain amount of rounds
 
 ## Quick Reference
 
