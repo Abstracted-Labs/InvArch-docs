@@ -10,7 +10,7 @@ Our roadmap in regards to deployments as a parachain is the following:
 
 This strategy allows us to de-risk software upgrades to InvArch on the Polkadot MainNet while still maintaining a reasonable update velocity. We will add details on how to access different InvArch-based networks as the networks become available.
 
-## Tinker Testnet
+## Brainstorm Testnet
 
 We decide to utilize the Rococo as the public testnet because it is now become a [community testbed](https://polkadot.network/blog/rococo-revamp-becoming-a-community-parachain-testbed/) and foster the security on the ongoing upgrades of InvArch architecture layers.
 

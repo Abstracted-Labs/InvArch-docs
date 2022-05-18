@@ -1,6 +1,6 @@
 # Tokens
 
-As an IP Management, Cross-chain Authentication, On-chain Funding and Multi-Chain Composability for Polkadot ecosystem, InvArch requires a utility token to function.
+As an IP Management with smart contract functionality for Polkadot ecosystem, InvArch requires a utility token to function.
 
 This token is central to the design of InvArch and cannot be removed without sacrificeing essential functionality. The InvArch token uses includes:
 
@@ -12,20 +12,20 @@ This token is central to the design of InvArch and cannot be removed without sac
 * Paying network transaction fees
 * And many more
 
-## VARCH Token
+## VArch Token
 
-In the InvArch deployment on Polkadot MainNet, this token will be called VArch, as in, "that smart contract call will cost 3 VArch". The token symbol will be $VARCH.
+In the InvArch deployment on Polkadot MainNet, this token will be called VArch, as in, "that smart contract call will cost 3 VArch". The token symbol will be VARCH.
 
 You can find more information about VArch [here](../../Learn/https:/)
 
 ## Tinker Token
 
-In the InvArch deployment on Kusama (called Tinker), this token will be called Tinker, as in, "that smart contract call will cost 3 Tinker". The token symbol will be $TNKR.
+In the InvArch deployment on Kusama (called Tinker), this token will be called Tinker, as in, "that smart contract call will cost 3 Tinker". The token symbol will be TINKR.
 
 You can find more information about Tinker [here](../../Learn/https:/)
 
-## Brainstorm Token
+## Tinker Apha Token
 
-In our Tinker TestNet (called Brainstorm), the token is call Brain ($BRAIN). This token can be acquired freely, as its only purpose is to drive development and testing on Brainstorm.
+In our InvArch TestNet (called Tinker Alpha), the token is call Tinker Alpha token (TNKRA). This token can be acquired freely, as its only purpose is to drive development and testing on Tinker Alpha.
 
 You can find more information about Tinker Alpha token from our [faucet](../../Learn/https:/)
