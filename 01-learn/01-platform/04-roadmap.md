@@ -6,33 +6,52 @@ InvArch is actively developing.
 
 * [x] Establish early Team & Advisors
 * [x] Publish Draft 1 of the InvArch whitepaper
-* [x] Develop custom  Substrate IP ownership
 
 #### 2021: Q4
 
 * [x] Secure a grant from the Wev3 Foundation
-* [x] Begin expanding Team & Community
-* [x] launch the InvArch Ambassador program
-* [x] Begin development of SmartIP & Multi-sig functionality&#x20;
+* [x] Begin the INV4 Protocol (IP Sets & IP Files pallets)
+* [x] Launch the InvArch Ambassador program
+* [x] Raise $1.75m during Seed funding round
 
 #### 2022: Q1
 
-* [x] Conclude $1.75m seed fundraising & conduct TGEvia Statemint
-* [x] Publish Draft 0 of the InvArch whitepaper
-* [ ] Conduct first InvArch testnet
-* [ ] Realize Smart IP & Multi-sig Functionality
-* [ ] Realize IP Staking mechanisms&#x20;
+* [x] Expand Ecosystem Development Team
+* [x] Publish The InvArch whitepaper: Draft 0
+* [x] Finish the INV4 Protocol (IP Tokens & IP Licence pallets)
+* [x] Conduct the first InvArch Tinkernet launch
+* [x] Launch the InvArch Ambassador Embassy
+* [x] Begin publishing the InvArch Eduseries
 
 #### 2022: Q2
 
-* [ ] Integrate Oracle, Data, Identity & Scaling solutions
-* [ ] Conclude strategic fundraising & launch the InvArch Builders Program
-* [ ] Realize Cross-chain Authentication (XCA) pallet & functionality
-* [ ] Conduct Final InvArch testnet & then pursue parachain slot
+* [x] Expand Protocol Development team
+* [x] Permanently launch the InvArch Tinkernet
+* [x] Launch the InvArchitects Assemble Initiative
+* [ ] Finish the OCIF Protocol (IP Stake, IP Farm, & IP Donate pallets)
+* [ ] Conduct Community-Exclusive Whitelisted sale
+* [ ] Hold $VARCH TGE using the Statemint Parachain
+* [ ] Form key infrastructure partnerships
+* [ ] Release the Archware tool for Github contribution tracking
 
 #### 2022: Q3
 
-* [ ] Successfully onboard to the Polkadot Relay as a Parachain
-* [ ] begin integrating XCA pallets & distributing VARCH rewards
-* [ ] Enable IPVM & conclude chain UI upgrades
-* [ ] InvArch Decentralized Democracy Governance update
+* [ ] Expand Technology Development Team
+* [ ] Raise $10m during Strategic round
+* [ ] Finish the XCA Protocol (IP Authentification & Dispute pallets)
+* [ ] Form key Ecosystem integration Partnerships
+* [ ] Secure a Parachain slot on the Polkadot relay
+* [ ] Release the GitArch app (decentralized Git & Web hosting)
+* [ ] Drop the GitArch Middleware for native Git support
+* [ ] Release the InvArch SDK
+
+**2022: Q4**
+
+* [ ] Perform IPVM upgrade for the INV4 Protocol
+* [ ] Release the XCINV4 module for other parachains
+* [ ] Upgrade GitArch for Decentralized Web Hosting
+* [ ] Release InvDAO Launcher & Web tools
+* [ ] Perform Governance Overhaul upgrade
+* [ ] Fully decentralize the InvArch network
+
+****
