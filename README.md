@@ -1,8 +1,8 @@
 ---
 title: Home
 description: >-
-  Welcome to the documentation website for the InvArch, an IP Ownership, Utility
-  & Cross-Chain Authentication Protocol for Web3.
+  Welcome to the documentation for the InvArch, an A Git Compatible IP Hosting,
+  Management, & Cross-Chain Authentication Network for Web3.
 ---
 
 # Welcome to InvArch
@@ -17,7 +17,7 @@ This site will grow and be refined over time as InvArch is developed. We welcome
 
 ## What is InvArch?
 
-InvArch is an IP ownership, utility and cross-chain authentication protocol with SmartIP functionality. It is a future Polkadot parachain that will allow users to tokenize their ideas and developers to build new and exciting applications that utilize this database and also cross-chain authentication.
+InvArch is an A Git Compatible IP Hosting, Management, & Cross-Chain Authentication Network for Web3. It is a future Polkadot parachain that will allow users to tokenize their ideas and developers to build new and exciting applications that utilize this database and also cross-chain authentication.
 
 InvArch will also be a parachain on the Polkadot network. That means it will get shared security from the Polkadot relay chain and will be able to integrate with other chains that are connected to Polkadot.
 
@@ -55,7 +55,7 @@ Read our news and updates on SubSocial Network [here](https://app.subsocial.netw
 
 ### Medium
 
-Our archived news on Medium [here](https://invarch.medium.com).
+Our archived news on Medium [here](https://invarch.medium.com/).
 
 ### Reddit
 
