@@ -23,7 +23,7 @@
     * [Parachain Consensus](01-learn/02-features/06-parachain-consensus.md)
 * [Node Operators](02-node-operators/README.md)
   * [Run a Node](<02-Node Operators/run-a-node.md>)
-  * [Tinker TestNet](02-node-operators/tinker-testnet.md)
+  * [Brainstorm Testnet](02-node-operators/tinker-testnet.md)
   * [Collators](02-node-operators/collators/README.md)
     * [Overview](02-node-operators/collators/overview.md)
     * [FAQ](02-node-operators/collators/faq.md)
