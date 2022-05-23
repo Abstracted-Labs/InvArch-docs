@@ -4,7 +4,7 @@
 
 The first InvArch TestNet, named Brainstorm, aims to provide developers with a place to start experimenting and building on InvArch in a shared environment. Since InvArch will be deployed as a parachain on Polkadot, we want our Testnet to reflect our production configuration. For this reason, we decided that it needed to be a parachain-based configuration rather than a Substrate development setup. In order to make InvArch Parachain on Polkadot become a battle-tested network, we would also prepared a canary network, called Tinkernet to be a parachain on Kusama Network Relay.&#x20;
 
-In order to collect as much feedback as possible and provide fast issue resolution, we have set up a Brainstorm Testnet channel on [InvArch Discord server.](../01-learn/01-platform/08-important-links.md)
+In order to collect as much feedback as possible and provide fast issue resolution, we have set up a Brainstorm Testnet channel on [InvArch Discord server.](https://discord.com/invite/invarch)
 
 ### Run a Collator (Brainstorm)
 
@@ -157,7 +157,7 @@ For token requests of more than the limited account allowed by our Discord bot, 
 
 #### Manual Procedure
 
-For token requests of more than the limited account allowed by our Discord bot, contact a moderator directly via our [Discord](http://discord.gg/invarch) channel. We are happy to provide the tokens needed to test your applications.
+For token requests of more than the limited account allowed by our Discord bot, contact a moderator directly via our [Discord](https://discord.com/invite/invarch) channel. We are happy to provide the tokens needed to test your applications.
 
 ### Proof of Stake
 

@@ -4,11 +4,11 @@ We plan to deploy InvArch on Polkadot Network. Significalty, we would have testn
 
 Our roadmap in regards to deployments as a parachain is the following:
 
-* Tinker Testnet: InvArch hosted parachain TestNet (May 2022)
-* Tinkernet Parachain: Deployment on Kusama Relay Chain (Q3 2022)
-* InvArch Parachain: Deployment on Polkadot Relay Chain (end of Q4 2022)
+* Brainstorm Testnet: InvArch hosted parachain Testnet (May 2022)
+* Tinkernet Parachain: Deployment on Kusama Relay Chain (Q2 2022)
+* InvArch Parachain: Deployment on Polkadot Relay Chain (end of Q3 2022)
 
-This strategy allows us to de-risk software upgrades to InvArch on the Polkadot MainNet while still maintaining a reasonable update velocity. We will add details on how to access different InvArch-based networks as the networks become available.
+This strategy allows us to de-risk software upgrades to InvArch on the Polkadot Relay chain while still maintaining a reasonable update velocity. We will add details on how to access different InvArch-based networks as the networks become available.
 
 ## Brainstorm Testnet
 

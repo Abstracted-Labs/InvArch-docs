@@ -21,6 +21,14 @@ InvArch is an A Git Compatible IP Hosting, Management, & Cross-Chain Authenticat
 
 InvArch will also be a parachain on the Polkadot network. That means it will get shared security from the Polkadot relay chain and will be able to integrate with other chains that are connected to Polkadot.
 
+## Overview
+
+InvArch Network: A Git Compatible IP Hosting, Management, & Cross-Chain Authentication Network for Web3
+
+InvArch features the INV4 (Invention, Involvement, Inventory, Investment), OCIF (On-Chain Innovation Funding), & XCA (Cross-Chain Authentication) Protocols.
+
+XCM features Cross-Consensus Messaging (XCM) to index, cross-reference, & certify IP asset authenticity across Web3 using various hashing methods & rounding algorithms.
+
 ## Get Involved
 
 ### Learn
@@ -39,7 +47,7 @@ Most up-to-date information on the status of the development tools / kits (SDK) 
 
 ### Discord
 
-Instructions for our TestNet and other development-focused conversation is found on our [Discord channel](https://discord.com/invite/UDuyBC2EC7).
+Instructions for our TestNet and other development-focused conversation is found on our [Discord channel](https://discord.com/invite/invarch).
 
 ### Telegram
 
