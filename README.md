@@ -17,7 +17,7 @@ This site will grow and be refined over time as InvArch is developed. We welcome
 
 ## What is InvArch?
 
-InvArch is an A Git Compatible IP Hosting, Management, & Cross-Chain Authentication Network for Web3. It is a future Polkadot parachain that will allow users to tokenize their ideas and developers to build new and exciting applications that utilize this database and also cross-chain authentication.
+InvArch is A Git Compatible IP Hosting, Management, & Cross-Chain Authentication Network for Web3. It is a future Polkadot parachain that will allow users to tokenize their ideas and developers to build new and exciting applications that utilize this database and also cross-chain authentication.
 
 InvArch will also be a parachain on the Polkadot network. That means it will get shared security from the Polkadot relay chain and will be able to integrate with other chains that are connected to Polkadot.
 
