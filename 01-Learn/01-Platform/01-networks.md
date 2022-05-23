@@ -14,7 +14,7 @@ This strategy allows us to de-risk software upgrades to InvArch on the Polkadot 
 
 We decide to utilize the Rococo as the public testnet because it is now become a [community testbed](https://polkadot.network/blog/rococo-revamp-becoming-a-community-parachain-testbed/) and foster the security on the ongoing upgrades of InvArch architecture layers.
 
-[Learn more about InvArch Tinker Beta](../../Learn/https:/)
+Learn more about [InvArch Brainstorm Testnet](../../02-node-operators/tinker-testnet.md)
 
 ## Tinkernet Parachain
 
@@ -22,8 +22,10 @@ In advance of deploying to the Polkadot MainNet, InvArch would launch Tinkernet 
 
 We plan to exercise parachain-related functionality such as [XCMP](https://wiki.polkadot.network/docs/learn-crosschain) and [SPREE](https://wiki.polkadot.network/docs/learn-spree) on InvArch Tinker.
 
-[Learn more about InvArch Tinker](../../Learn/https:/)
+[Learn more about InvArch Tinkernet Parachain](01-networks.md#tinkernet-parachain)
 
 ## InvArch Parachain
 
 The InvArch production MainNet will be deployed as a parachain on Polkadot. This InvArch network will feature the highest levels of security and availability. Code running on the MainNet will generally have been vetted through one or more of the other networks listed above.
+
+[Learn more about InvArch Parachain](01-networks.md#invarch-parachain)

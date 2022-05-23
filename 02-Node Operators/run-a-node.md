@@ -4,15 +4,16 @@
 
 Running a full node on a InvArch-based network allows you to connect to the network, sync with a bootnode, obtain local access to RPC endpoints, author blocks on the parachain, and more.
 
-There are multiple deployments of InvArch, including the Tinker Alpha TestNet, Tinker on Kusama, and eventually there will be InvArch on Polkadot. Here's how these environments are named and their corresponding [chain specification](https://docs.substrate.io/v3/runtime/chain-specs/) file names:
+There are multiple deployments of InvArch, including the Brainstorm Testnet, Tinkernet Parachain on Kusama, and eventually there will be InvArch on Polkadot. Here's how these environments are named and their corresponding [chain specification](https://docs.substrate.io/v3/runtime/chain-specs/) file names:
 
-| Network | Hosted by | Chain Name |
-| ------- | --------- | ---------- |
-| Tinker  | InvArch   | tinker     |
-| InvArch | Polkadot  | invarch    |
+| Network    | Hosted by | Chain Name |
+| ---------- | --------- | ---------- |
+| Brainstorm | InvArch   | brainstorm |
+| Tinkernet  | Kusama    | tinkernet  |
+| InvArch    | Polkadot  | invarch    |
 
 {% hint style="info" %}
-Tinker is a Testnet, and as such _will not_ have 100% uptime. The parachain might be purged as needed. During the development of your application, make sure you implement a method to redeploy your contracts and accounts to a fresh parachain quickly. If a chain purge is required, it will be announced via our [Discord ](https://discord.com/invite/invarch)channel at least **24 hours** in advance.
+Brainstorm is a testnet, and as such _will not_ have 100% uptime. The parachain might be purged as needed. During the development of your application, make sure you implement a method to redeploy your contracts and accounts to a fresh parachain quickly. If a chain purge is required, it will be announced via our [Discord ](https://discord.com/invite/invarch)channel at least **24 hours** in advance.
 {% endhint %}
 
 ## Requirement
@@ -25,7 +26,7 @@ The minimum specs recommended to run a node are shown in the following table. Fo
 
 | Chain         | Component                                                                                                            | Requirement                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| Tinker (TINK) | CPU                                                                                                                  | 8 Cores (Fastest per core speed) |
+| Tinker (TNKR) | CPU                                                                                                                  | 8 Cores (Fastest per core speed) |
 | RAM           | 16 Gb                                                                                                                |                                  |
 | SSD           | 250 GB (to start)                                                                                                    |                                  |
 | Firewall      | <p>P2P port must be open to incoming traffic:</p><ul><li>Source: Any</li><li>Destination: 30333, 30334 TCP</li></ul> |                                  |
